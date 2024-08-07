@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketing Agency</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .jumbotron {
+      background: url('Images/lan1.2.png') no-repeat center center;
+      height: 500px;
+      background-size: cover;
+      color: white;
+    }
+
+    header .btn {
+      margin-top: 20px;
+    }
+
+    section {
+      padding: 50px 0;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    .service-card {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      margin: 5px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .service-card img {
+      border-radius: 10px;
+    } 
+
+    .service-card h3 {
+      margin-top: 15px;
+    }
+
+    .service-card p {
+      margin-bottom: 15px;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Marketing Agency</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="home" class="jumbotron text-center bg-primary text-white">
+    <h1 class="display-4">Welcome to Our Marketing Agency</h1>
+    <p class="lead">We create powerful marketing strategies to help your business grow.</p>
+    <a href="#about" class="btn btn-light btn-lg">Learn More</a>
+  </header>
+
+  <section id="about" class="container text-center my-5">
+    <h2>About Us</h2>
+    <p>We are a team of dedicated marketing professionals committed to helping businesses achieve their goals. With a focus on innovative solutions and data-driven strategies, we ensure that your marketing efforts deliver the results you need.</p>
+    <img src="Images/lan2.jpg" width="750px" height="350px" class="img-fluid" alt="About Us">
+  </section>
+
+  <section id="services" class="container text-center my-5">
+    <h2>Our Services</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="service-card p-3">
+          <img src="Images/lan3.jpg" class="img-fluid mb-3" width="100%" height="300px" alt="Service 1">
+          <h3>Digital Marketing</h3>
+          <p>Our digital marketing services help you reach a wider audience and increase your online presence through SEO, social media, and more.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card p-3">
+          <img src="Images/lan4.5.png" class="img-fluid mb-3" width="100%" height="300px alt="Service 2">
+          <h3>Content Creation</h3>
+          <p>We create engaging and relevant content to captivate your audience and drive more traffic to your website.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card p-3">
+          <img src="Images/lan8.2.png"  class="img-fluid mb-3" width="100%" height="300px alt="Service 3">
+          <h3>Brand Strategy</h3>
+          <p>Our brand strategy services help you build a strong brand identity that resonates with your target audience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container text-center my-5">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to discuss how we can help your business, please get in touch with us using the form below.</p>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Your Email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+
+  <footer class="text-center py-4 bg-dark text-white">
+    <p>&copy; 2024 Marketing Agency. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
